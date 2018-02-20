@@ -23,17 +23,6 @@ def home():
     """Render website's home page."""
     return render_template('home.html')
 
-@app.route('/login.html')
-def login():
-    """Render website's home page."""
-    return render_template('login.html')
-
-@app.route('/sing-up.html')
-def sing-up():
-    """Render website's home page."""
-    return render_template('sing-up.html')
-
-
 ###
 # The functions below should be applicable to all Flask apps.
 ###
